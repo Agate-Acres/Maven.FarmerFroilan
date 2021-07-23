@@ -14,5 +14,5 @@ public abstract class Aircraft implements Vehicle{
         return "BULLETS";
     }
 
-    
+
 }
