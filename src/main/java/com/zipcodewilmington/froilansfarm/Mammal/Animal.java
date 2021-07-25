@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public abstract class Animal <T extends Edible> implements Eater<T>, NoiseMaker {
+public class Animal <T extends Edible> implements Eater<T>, NoiseMaker {
     private String name;
     public List<T> meals = new ArrayList<>();
 

@@ -100,8 +100,8 @@ public class Weekdays {
 
         for(int i = 0; i < chickenCoops.size(); i++) {
             ChickenCoop coop = (ChickenCoop) chickenCoops.get(i);
-            List<Edible> x = farm.getPantry().takeEarCorn(1);
-            coop.getChickenList().forEach(chicken -> chicken.eat((EarCorn) x));
+            List<EarCorn> x = farm.getPantry().takeEarCorn(1);
+            coop.getChickenList().forEach(chicken -> chicken.eat(x));
         }
 
 
